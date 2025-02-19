@@ -6,7 +6,7 @@ import { Search as SearchIcon } from '@mui/icons-material';
 
 const API_KEY = import.meta.env.VITE_WEATHER_API_KEY;
 
-const LOCATION_API_URL = 'http://dataservice.accuweather.com/locations/v1/cities/search';
+const LOCATION_API_URL = 'https://dataservice.accuweather.com/locations/v1/cities/search';
 const CURRENT_WEATHER_API_URL = 'https://dataservice.accuweather.com/currentconditions/v1/';
 
 function WeatherApp() {
